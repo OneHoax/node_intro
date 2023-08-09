@@ -12,3 +12,5 @@ rl.question(query, (answer: string) => {
 
     rl.close();
 });
+
+console.log("new statement");
