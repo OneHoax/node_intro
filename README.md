@@ -30,3 +30,4 @@
     - **npm run tsc:** run the version of tsc installed for the npm package through node
     - **npm run tsc -- --[arg(s)]:** run the version of tsc installed for the npm package through node and pass it some args; the first "--" is to allow npm to pass options to the underlying script (tsc in this case); the second "--[args(s)]" are the options that actually get passed to tsc
         - **npm run tsc -- --init:** initialize a ts project in current directory through the ts version installed for this node project
+- **Note:** "npm start" and "npm test" are special values you can run without using the word "run" because they're the most used ones

@@ -1,17 +1,29 @@
 {
   "name": "intro",
   "version": "1.0.0",
-  "description": "",
+  "description": "General NodeJS functionality",
   "main": "./out/index.js",
   "scripts": {
     "tsc": "tsc",
-    "start": "tsc && node ./out/index.js",
+    "start": "tsc && node ./out/http/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OneHoax/node_intro.git"
+  },
+  "keywords": [
+    "intro",
+    "node"
+  ],
   "author": "Andres Osorio",
   "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^20.4.9",
+  "dependencies": {
+    "@types/node": "^20.5.0",
     "typescript": "^5.1.6"
+  },
+  "engines": {
+    "npm": ">=9.8.1",
+    "node": ">=18.17.0"
   }
 }

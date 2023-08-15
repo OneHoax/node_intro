@@ -1,5 +1,11 @@
 import readLine from "node:readline";
 
+console.log("Hey there, ", process.argv[2]);
+
+process.argv.forEach((val, index): void => {
+    console.log(`${index}: ${val}`)
+})
+
 const rl = readLine.createInterface({
     input: process.stdin,
     output: process.stdout
@@ -13,4 +19,4 @@ rl.question(query, (answer: string) => {
     rl.close();
 });
 
-console.log("new statement");
+console.info("This is some info");
