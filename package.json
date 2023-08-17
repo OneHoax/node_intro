@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "General NodeJS functionality",
   "main": "./out/index.js",
+  "type": "module",
   "scripts": {
     "tsc": "tsc",
     "start": "tsc && node ./out/http/server.js",
